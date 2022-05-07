@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6, p, body, span{
 	content: "";
 	position: absolute;
 	top: 100%;
-	left: 0;
+	left: 50%;
 	width: 0;
 	height: 2px;
 	background-color: #c69453;
@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5, h6, p, body, span{
 }
 .header-menu ul li a:hover:after {
 	width: 100%;
+	left: 0;
 	transform: scale(1);
 }
 .head-content{ 
@@ -211,7 +212,7 @@ transition: .5s;
 background-color: #ddd;
 }
 .pro-item.box:hover.pro-item.box img{
-transform: rotate(360deg);
+transform: rotateY(360deg);
 
 }
 .pro-item.box:hover.pro-item.box .d-btn{
@@ -239,7 +240,7 @@ background-color: white;
 button.d-btn:hover{
 background-color: rgb(19, 18, 18)!important;
 color: white !important;
-
+transform: translateY(10px);
 }
 /* pro-section end */
 
